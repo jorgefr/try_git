@@ -9,14 +9,10 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(final String[] args) {
-		// TODO Auto-generated method stub
-		//		new Apple();
 		System.out.println(getNthFibonacci(3));
 		System.out.println(getNthFibonacci(6));
 		System.out.println(getNthFibonacci(7));
 		System.out.println(getNthFibonacci(8));
-		//		new RedApple().atest2();
-
 	}
 
 	public static long getNthFibonacci(final long i) {
@@ -36,6 +32,4 @@ public class Main {
 		}
 		return fibk;
 	}
-
-
 }
