@@ -9,6 +9,10 @@ public class Main {
 	 * @param args
 	 */
 	public static void main(final String[] args) {
+		printFibonaccis();
+	}
+
+	public static void printFibonaccis() {
 		System.out.println(getNthFibonacci(3));
 		System.out.println(getNthFibonacci(6));
 		System.out.println(getNthFibonacci(7));
