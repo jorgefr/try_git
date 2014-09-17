@@ -13,13 +13,13 @@ public class Main {
 	}
 
 	public static void printFibonaccis() {
-		System.out.println(getNthFibonacci(3));
-		System.out.println(getNthFibonacci(6));
-		System.out.println(getNthFibonacci(7));
-		System.out.println(getNthFibonacci(8));
+		System.out.println(getNthFibonacciRecursively(3));
+		System.out.println(getNthFibonacciRecursively(6));
+		System.out.println(getNthFibonacciRecursively(7));
+		System.out.println(getNthFibonacciRecursively(8));
 	}
 
-	public static long getNthFibonacci(final long i) {
+	public static long getNthFibonacciRecursively(final long i) {
 		long fib2 = 0;
 		long fib1 = 1;
 		if (i == 1) {
